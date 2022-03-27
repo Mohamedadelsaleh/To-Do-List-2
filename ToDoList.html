@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="ToDoList.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="Container">
+        <div class="addField">
+            <input type="text" name="name">
+            <button class="addBtn">+</button>
+        </div>
+        <div class="dataAdded">
+            <span class="NoDataMessage">No Input Data</span>
+        <!-- <span class="dataBox">
+            Data One
+            <button class="delete">Delete</button>
+            <button class="checked">Delete</button>
+        </span>
+        <span class="dataBox">
+            Data Two
+            <button class="delete">Delete</button>
+            <button class="checked">Delete</button>
+        </span> -->
+        </div>
+        <div class="completedData">
+            <h2> Completed Data List</h2>
+            <span class="completedDataMessage">No Completed Data</span>
+        <!-- <span class="completeBox">
+            Data One
+            <button class="delete">Delete</button>
+        </span>
+        <span class="dataBox">
+            Data Two
+            <button class="delete">Delete</button>
+        </span> -->
+        </div>
+    </div>
+    <div class="AddedData">
+        <div class="NumOfTasks">
+            Data Added <span>0</span>
+        </div>
+        <div class="tasksCompleted">
+            Completed  <span>0</span>
+        </div>
+    </div>
+    <script src="ToDoList.js"></script>
+    </body>
+</html>
